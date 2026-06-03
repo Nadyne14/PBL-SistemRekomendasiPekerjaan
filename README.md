@@ -29,8 +29,7 @@ cp .env.example .env
 ```
 - Buat Database baru dengan nama SistemRekomendasiPekerjaan
   di http://localhost/phpmyadmin/index.php
-  ![image](<img width="719" height="154" alt="image" src="https://github.com/user-attachments/assets/38853847-868d-4111-8c35-7c7c462177ac" />)
-
+  
 - Buka file `.env` dan sesuaikan konfigurasi database:
   ```env
   DB_DATABASE=SistemRekomendasiPekerjaan
