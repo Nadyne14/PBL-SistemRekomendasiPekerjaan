@@ -7,13 +7,13 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/eerfinn/SistemAkreditasi-PBL.git
+git clone https://github.com/Nadyne14/PBL-SistemRekomendasiPekerjaan.git
 ```
 
 ### 2. Masuk ke Direktori Proyek
 
 ```bash
-cd SistemAkreditasi-PBL
+cd PBL-SistemRekomendasiPekerjaan
 ```
 
 ### 3. Install Dependensi
@@ -27,12 +27,13 @@ composer install
 ```bash
 cp .env.example .env
 ```
-- Buat Database baru dengan nama SistemAkreditasi
-  ![image](https://github.com/user-attachments/assets/f81642c1-9951-424c-b11d-bcf08fc9c8ce)
+- Buat Database baru dengan nama SistemRekomendasiPekerjaan
+  di http://localhost/phpmyadmin/index.php
+  ![image](<img width="719" height="154" alt="image" src="https://github.com/user-attachments/assets/38853847-868d-4111-8c35-7c7c462177ac" />)
 
 - Buka file `.env` dan sesuaikan konfigurasi database:
   ```env
-  DB_DATABASE=SistemAkreditasi
+  DB_DATABASE=SistemRekomendasiPekerjaan
   DB_USERNAME=root
   DB_PASSWORD=
   ```
